@@ -252,7 +252,31 @@ class Fun(commands.Cog):
     @commands.command(brief='For when pain', description="For when words aren't enough to describe the pain you feel")
     async def pain(self, ctx):
         await ctx.send(file=discord.File('Random_Fun/pain.jpg'))
-            
+
+    @commands.command(brief='Secret santer pairer', description='Pairs the people in a discord channel with eachother for a secret Santa event!')
+    async def secretsanta(self, ctx):
+        members = list(ctx.guild.members)
+        channel = ctx.channel
+        members.remove(self.bot.user)
+        receivers = members.copy()
+
+        if(str(channel) != 'christmas'): 
+            await ctx.send('Incorrect channel')
+            return
+
+        for member in members:
+            first = member
+
+            receiver = randint(0, len(receivers)-1)
+            while receivers[receiver] == member:
+                receiver = randint(0, len(receivers)-1)
+
+            second = receivers[receiver]
+
+            dm = await first.create_dm()
+            await dm.send(f'Your gift receiver is {second.name}')
+
+            receivers.remove(second)      
         
     @commands.Cog.listener()
     async def on_ready(self):
