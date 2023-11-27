@@ -18,8 +18,8 @@
 ```
 
 ## Deploying
-1. Currently, the personal version that I am running is hosted using Render.com which is a monthly paid service, feel free to take a look here if that interests you: [https://render.com/]
+Currently, the personal version that I am running is hosted using Render.com which is a monthly paid service, feel free to take a look here if that interests you: [https://render.com/]
 
 ## Issues
 
-This project is a constant and ongoing project. While progress on it has slowed down since it is in a place that I am comfortable with
+This project is a constant and ongoing project. While progress on it has slowed down since it is in a place that I am comfortable with if there is something I wish to add or something that gets pointed out to me, I will try my best to implement it.
