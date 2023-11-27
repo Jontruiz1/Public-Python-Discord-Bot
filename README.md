@@ -1,13 +1,13 @@
-## Python Discord Bot using Discord.py API wrapper
+# Python Discord Bot using Discord.py API wrapper
 
-Mostly meant for 'for-fun' purposes.
+## A personalized Discord bot written in Python using the Discord.py API wrapper and deployed using Render.
 
 ## Tweaking this project for your own use
 
 1. Customize botmain.py how you please, you may have to remove the client variable and associated aspects to it if you don't have a mongo database. Reset the Bot Token variable to the token of your choosing.
 2. In scraper.py, you can reset the API Key to one of your choosing if you have an OpenWeatherMap API Key or remove the file entirely
 
-## How to use this bot for yourself
+## How to run this bot yourself
   
 1. Clone this project
 2. Set up a bot in your discord developer portal
@@ -16,3 +16,10 @@ Mostly meant for 'for-fun' purposes.
 ```
  python -u "your_path\cogs\botmain.py"
 ```
+
+## Deploying
+1. Currently, the personal version that I am running is hosted using Render.com which is a monthly paid service, feel free to take a look here if that interests you: [https://render.com/]
+
+## Issues
+
+This project is a constant and ongoing project. While progress on it has slowed down since it is in a place that I am comfortable with
