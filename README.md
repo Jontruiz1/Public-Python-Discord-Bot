@@ -12,7 +12,7 @@
 1. Clone this project
 2. Set up a bot in your discord developer portal
 3. Use pip to download Discord.py
-4. Using visual studio code or a command line interface you can execute the following command:
+4. Using visual studio code or a command line interface from the directory of botmain.py, you can execute the following command:
 ```
  python -u "your_path\cogs\botmain.py"
 ```
