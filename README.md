@@ -14,5 +14,5 @@ Mostly meant for 'for-fun' purposes.
 3. Use pip to download Discord.py
 4. Using visual studio code or a command line interface you can execute the following command:
 ```
- python -u "your_path\cogs\scraper.py"
+ python -u "your_path\cogs\botmain.py"
 ```
