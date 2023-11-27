@@ -4,7 +4,7 @@
 
 ## Tweaking this project for your own use
 
-* Customize botmain.py how you please, you may have to remove the client variable and associated aspects to it if you don't have a mongo database. Reset the Bot Token variable to the token of your choosing.
+* Customize botmain.py how you please, you may have to remove the client variable and associated aspects to it if you don't have a mongo database. You will have to change the bot token variable at the bottom of the botmain.py file if you wish to run the bot yourself
 * In scraper.py, you can reset the API Key to one of your choosing if you have an OpenWeatherMap API Key or remove the file entirely
 
 ## How to run this bot yourself
