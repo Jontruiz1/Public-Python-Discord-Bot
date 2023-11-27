@@ -4,8 +4,8 @@
 
 ## Tweaking this project for your own use
 
-1. Customize botmain.py how you please, you may have to remove the client variable and associated aspects to it if you don't have a mongo database. Reset the Bot Token variable to the token of your choosing.
-2. In scraper.py, you can reset the API Key to one of your choosing if you have an OpenWeatherMap API Key or remove the file entirely
+* Customize botmain.py how you please, you may have to remove the client variable and associated aspects to it if you don't have a mongo database. Reset the Bot Token variable to the token of your choosing.
+* In scraper.py, you can reset the API Key to one of your choosing if you have an OpenWeatherMap API Key or remove the file entirely
 
 ## How to run this bot yourself
   
@@ -22,4 +22,4 @@ Currently, the personal version that I am running is hosted using Render.com whi
 
 ## Issues
 
-This project is a constant and ongoing project. While progress on it has slowed down since it is in a place that I am comfortable with if there is something I wish to add or something that gets pointed out to me, I will try my best to implement it.
+This project is a constant and ongoing project. While progress on it has slowed down since it is in a place that I am comfortable with if there is something I wish to add or something that gets pointed out to me, I will try my best to implement it. Feel free to submit an issue using the issues tab above and if you would like to submit a PR with a fix, reference the issue you created!
