@@ -2,6 +2,7 @@ import datetime, random, os
 import discord, asyncio, aiohttp
 from datetime import date
 from discord.ext import commands
+from random import randint
 
 class Fun(commands.Cog):
     def __init__(self, bot):
